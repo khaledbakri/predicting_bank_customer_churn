@@ -1,0 +1,5 @@
+wandb:
+  project_name: predicting_bank_customer_churn
+pipeline_steps:
+  - upload_raw_data
+data_path: /home/khaled/projects/predicting_bank_customer_churn/data/bank_customer_churn_prediction.csv
