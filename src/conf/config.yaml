@@ -1,6 +1,11 @@
 wandb:
   project_name: predicting_bank_customer_churn
 pipeline_steps:
-  - split_data
+  - train_model
 data_path: /home/khaled/projects/predicting_bank_customer_churn/data/bank_customer_churn_prediction.csv
 test_size: 0.33
+model:
+  n_estimators: 10
+  max_depth: 6
+  min_samples_split: 2
+  min_samples_leaf: 1
